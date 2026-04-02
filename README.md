@@ -35,7 +35,7 @@ python scripts/unused_ebs.py
 
 ```bash
 # Assume role in another account
-export AWS_ROLE_ARN="arn:aws:iam::123456789012:role/CostOptmizerRole"
+export AWS_ROLE_ARN="arn:aws:iam::123456789012:role/CostOptimizerRole"
 python scripts/idle_ec2.py
 ```
 
@@ -102,4 +102,4 @@ Total estimated monthly waste: $239.84
 - [ ] Generate RI/Savings Plan coverage report
 - [ ] Integrate with AWS Organizations for automatic multi-account discovery
 - [ ] Add support for Lambda cost analysis
-- Slack integration for periodic reports
+- [ ] Slack integration for periodic reports
