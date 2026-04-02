@@ -1,5 +1,7 @@
 # AWS Cost Optimizer
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Python](https://img.shields.io/badge/python-3.11-blue.svg) ![AWS](https://img.shields.io/badge/AWS-boto3-orange.svg) ![FinOps](https://img.shields.io/badge/FinOps-cost--optimization-green.svg)
+
 A collection of Boto3 scripts to identify and report on AWS cost waste. Built from real FinOps work — these scripts have found $140K+ in annual waste across various accounts.
 
 ## What it does
