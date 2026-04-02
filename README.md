@@ -37,7 +37,7 @@ python scripts/unused_ebs.py
 
 ```bash
 # Assume role in another account
-export AWS_ROLE_ARN="arn:aws:iam::123456789012:role/CostOptimizerRole"
+export AWS_ROLE_ARN="arn:aws:iam::XXXXXXXXXXXX:role/CostOptimizerRole"
 python scripts/idle_ec2.py
 ```
 
@@ -83,7 +83,7 @@ For cross-account scanning, create a role in the target account with these permi
 ## Sample output
 
 ```
-Account: 123456789012
+Account: XXXXXXXXXXXX
 
 IDLE EC2 INSTANCES (avg CPU < 5% over 14 days)
 instance_id       instance_type    avg_cpu    uptime_days    monthly_cost
